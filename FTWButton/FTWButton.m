@@ -248,9 +248,6 @@
 																self.frame.size.height - verticalPadding*2);
 	
 	label.frame = selectedLabel.frame = labelRect;
-
-	
-	LOG_EXPR(label.frame);
 }
 
 - (void) setFrame:(CGRect)aFrame {
