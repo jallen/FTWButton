@@ -111,6 +111,7 @@
 	label.shadowColor = [UIColor colorWithRed:107.0f/255.0f green:107.0f/255.0f blue:107.0f/255.0f alpha:0.5f];
 	label.shadowOffset = CGSizeMake(0, 1);
 	label.backgroundColor = [UIColor clearColor];
+    label.adjustsFontSizeToFitWidth = YES;
 	[self addSubview:label];
 	
 	self.selectedLabel = [[UILabel alloc] init];
