@@ -412,7 +412,7 @@
 
 - (void) configureViewPropertiesForControlState:(UIControlState)controlState {
 	[self setFrameInternal:[self frameForControlState:controlState]];
-	[self layoutSubviews];
+	[self layoutIfNeeded];
 	
 	//set text shadow
 	UILabel *labelForControlState = label;
